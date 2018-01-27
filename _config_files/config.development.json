@@ -12,7 +12,7 @@
 
     "logging": {
         "outputFile": "master_dev_logs.log",
-        "localFile": "_dev.log",
+        "localFile": "_dev.log"
     },
 
     "directory": {
