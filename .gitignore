@@ -12,3 +12,13 @@
 
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
+
+# IDE details need not apply
+.vscode/
+.vscode/*
+
+# Log files
+*.log
+
+# Output exe file folder contents
+bin/*

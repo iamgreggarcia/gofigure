@@ -1,0 +1,16 @@
+
+language: go
+
+go:
+  - master
+
+before_install:
+  - cp .netrc ~
+  - chmod 600 .netrc
+  - chmod +x clean.sh
+  - chmod +x build.sh
+  - chmod +x test.sh
+
+script:
+  - ./clean.sh
+  - ./test.sh

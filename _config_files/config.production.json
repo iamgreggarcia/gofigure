@@ -1,0 +1,21 @@
+{
+    "database": {
+        "username": "",
+        "password": "",
+        "database": "",
+        "dbType": "postgres"
+    },
+    
+    "server": {
+        "port": "8080"
+    },
+
+    "logging": {
+        "outputFile": "master_dev_logs.log",
+        "localFile": "_dev.log"
+    },
+
+    "directory": {
+        "staticFilesPath": "/home/greg/Dropbox/Code/go/src/github.com/iamgreggarcia/gofigure/static/"
+    }
+}
