@@ -29,7 +29,7 @@ $ sh clean.sh
 $ sh run.sh
 ```
 Navigate to http://localhost:8080 and you should see the following page:
-![alt text](https://github.com/iamgreggarcia/gofigure/static/img/index.png "Gofigure Home Page")
+![alt tag](https://github.com/iamgreggarcia/gofigure/static/img/index.png)
 
 
 ## Project Structure
