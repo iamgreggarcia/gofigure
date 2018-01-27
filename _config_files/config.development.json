@@ -13,8 +13,6 @@
     "logging": {
         "outputFile": "master_dev_logs.log",
         "localFile": "_dev.log",
-        "path": "/home/greg/Dropbox/Code/go/src/github.com/iamgreggarcia/gofigure/logs/",
-        "localPath": "/home/greg/Dropbox/Code/go/src/github.com/iamgreggarcia/gofigure/logs/test/"
     },
 
     "directory": {
