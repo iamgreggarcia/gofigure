@@ -29,7 +29,7 @@ $ sh clean.sh
 $ sh run.sh
 ```
 Navigate to http://localhost:8080 and you should see the following page:
-![alt tag](https://github.com/iamgreggarcia/gofigure/static/img/index.png)
+![alt tag](index.png)
 
 
 ## Project Structure
