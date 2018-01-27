@@ -1,0 +1,8 @@
+{
+    "database": {
+        "username": "mannifest",
+        "password": "temppass",
+        "database": "test_mannifest",
+        "dbType": "postgres"
+    }
+}
