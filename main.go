@@ -66,7 +66,16 @@ func main() {
 	configuration.Directory.StaticFilesPath = staticFilesPath
 	// Setup logging configuration.
 	masterLogPath := logPath + configuration.Logging.OutputFile
-	logLocalPath := logPath + configuration.Logging.LocalFile
+	logLocalPath := logPath + "test/" + configuration.Logging.LocalFile
+
+	// Check if log directories exist
+	if _, err := os.Stat(logPath); os.IsNotExist(err) {
+		os.Mkdir(logPath, 0700)
+	}
+
+	if _, err := os.Stat(logPath + "test/"); os.IsNotExist(err) {
+		os.Mkdir(logPath+"test/", 0700)
+	}
 
 	logFile, err := os.OpenFile(masterLogPath, os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0644)
 	if err != nil {
