@@ -1,5 +1,8 @@
 # Gofigure
-A minimal Go RESTful web application using Bootstrap and [mux](https://github.com/gorilla/mux) for routing.
+A minimal Go RESTful web application using Bootstrap and [mux](https://github.com/gorilla/mux).
+
+[![Build Status](https://travis-ci.org/iamgreggarcia/gofigure.svg?branch=master)](https://travis-ci.org/iamgreggarcia/gofigure)
+
 ## Getting Started
 
 1. Be sure [Go](https://golang.org/doc/install) is properly installed, along with a configured [$GOPATH](https://github.com/golang/go/wiki/SettingGOPATH).  
