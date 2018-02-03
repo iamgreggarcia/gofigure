@@ -80,7 +80,7 @@ func (a *App) initializeRoutes(routeConfig *cfg.Configuration) {
 	api.Methods("GET").Path("/greetings/hello/{name}").HandlerFunc(handler.GetHelloHandler)
 ```
 
-All client-side code is location in the `static/` directory:
+All client-side code is located in the `static/` directory:
 ```shell
 $ tree static
 static
