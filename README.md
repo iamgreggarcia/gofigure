@@ -2,6 +2,7 @@
 A minimal Go RESTful web application using Bootstrap and [mux](https://github.com/gorilla/mux).
 
 [![Build Status](https://travis-ci.org/iamgreggarcia/gofigure.svg?branch=master)](https://travis-ci.org/iamgreggarcia/gofigure)
+[![Go Report Card](https://goreportcard.com/badge/github.com/iamgreggarcia/gofigure)](https://goreportcard.com/report/github.com/iamgreggarcia/gofigure)
 
 ## Getting Started
 
