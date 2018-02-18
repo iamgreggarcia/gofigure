@@ -9,6 +9,7 @@ import (
 	"github.com/briandowns/spinner"
 	"github.com/fatih/color"
 	"github.com/iamgreggarcia/gofigure/api/config"
+	// pq is the postgresql driver we are using
 	_ "github.com/lib/pq"
 )
 

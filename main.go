@@ -49,7 +49,7 @@ func main() {
 
 	// Get environment variables for DB access
 	// Set prefix for env vars, and bind the key names used in the config json file
-	// along with the environemnt variable name itself (second param in BindEnv())
+	// along with the environment variable name itself (second param in BindEnv())
 	viper.SetEnvPrefix("gostarter")
 	// Database username, password, and database name
 	viper.BindEnv("database.username", "GOSTARTER_USERNAME")

@@ -50,7 +50,7 @@ func GetHelloHandler(w http.ResponseWriter, r *http.Request) {
 
 	color.Unset()
 
-	// Return reponse in JSON
+	// Return response in JSON
 	respondWithJSON(w, http.StatusOK, m)
 }
 

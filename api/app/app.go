@@ -100,7 +100,8 @@ func (a *App) Run() {
 	s.Start()
 	time.Sleep(2 * time.Second)
 	// shut down gracefully, but wait no longer than 5 seconds before halting
-	ctx, _ := context.WithTimeout(context.Background(), 5*time.Second)
+	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
+	defer cancel()
 	s.Stop()
 	color.Set(color.FgHiGreen)
 	log.Println("Server gracefully stopped.")
